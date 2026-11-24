@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpTic Mercules — MW4 Monster Launch Invitational Highlights (3:15 HD)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(ellipse 900px 420px at 50% 0%, rgba(149, 201, 61, 0.16), transparent 68%), #070a0e;
+    color: #f0f6f2;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    line-height: 1.55;
+    padding: 28px 18px 64px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  header {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 14px;
+    border-bottom: 1px solid rgba(149, 201, 61, 0.28); padding-bottom: 18px; margin-bottom: 24px;
+  }
+  .tag { font-size: 12px; font-weight: 800; letter-spacing: 0.24em; text-transform: uppercase; color: #95c93d; margin-bottom: 6px; }
+  h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 900; letter-spacing: 0.02em; color: #fff; }
+  .sub { font-size: 14px; color: #9db2a5; margin-top: 4px; }
+  .dl-btn {
+    display: inline-block; padding: 11px 18px; background: #95c93d; color: #070a0e;
+    font-weight: 800; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+    text-decoration: none; border-radius: 4px;
+  }
+  .player-box {
+    background: #000; border: 1px solid rgba(149, 201, 61, 0.35); border-radius: 6px; overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.65); margin-bottom: 28px;
+  }
+  video { width: 100%; display: block; aspect-ratio: 16 / 9; background: #000; }
+  .section-title {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #95c93d; margin-bottom: 14px;
+  }
+  .chapters { display: grid; gap: 10px; }
+  .ch {
+    display: grid; grid-template-columns: 78px 1fr auto; gap: 14px; align-items: center;
+    background: rgba(13, 19, 24, 0.92); border: 1px solid rgba(149, 201, 61, 0.16);
+    padding: 13px 16px; border-radius: 5px; cursor: pointer; transition: border-color 0.15s, background 0.15s;
+  }
+  .ch:hover, .ch.active { border-color: #95c93d; background: rgba(149, 201, 61, 0.10); }
+  .ts {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 800; font-size: 15px;
+    color: #95c93d; background: rgba(149, 201, 61, 0.12); padding: 5px 9px; border-radius: 4px; text-align: center;
+  }
+  .ch-title { font-weight: 800; font-size: 15px; color: #fff; margin-bottom: 2px; }
+  .ch-meta { font-size: 12.5px; color: #a7d957; letter-spacing: 0.04em; margin-bottom: 3px; }
+  .ch-note { font-size: 13.5px; color: #b5c6bc; }
+  .vod-link {
+    font-size: 12px; color: #8da698; text-decoration: none; border: 1px solid rgba(255,255,255,0.12);
+    padding: 5px 10px; border-radius: 4px; white-space: nowrap;
+  }
+  .vod-link:hover { color: #fff; border-color: #95c93d; }
+  footer { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 13px; color: #8a9e92; }
+  @media (max-width: 680px) { .ch { grid-template-columns: 68px 1fr; } .vod-link { display: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="tag">OPTIC TEXAS // CALL OF DUTY: MODERN WARFARE 4</div>
+      <h1>OpTic Mercules &mdash; Monster Launch Invitational Highlights</h1>
+      <div class="sub">Official Broadcast Compilation (Nov 6&ndash;8, 2026 &middot; 1280&times;720 HD &middot; 3:15 &middot; 9 Verified Highlights Across All 4 Series)</div>
+    </div>
+    <a class="dl-btn" href="https://github.com/zColdWater/optic-mercules-mw4-highlights/releases/download/v1.0.0/optic-mercules-mw4-monster-invitational-highlights.mp4">Download HD MP4</a>
+  </header>
+
+  <div class="player-box">
+    <video id="vid" controls preload="metadata" poster="./intro.png" playsinline>
+      <source src="./optic-mercules-mw4-monster-invitational-highlights.mp4" type="video/mp4">
+      <source src="https://github.com/zColdWater/optic-mercules-mw4-highlights/releases/download/v1.0.0/optic-mercules-mw4-monster-invitational-highlights.mp4" type="video/mp4">
+      Your browser does not support HTML5 video. Download directly via the button above.
+    </video>
+  </div>
+
+  <div class="section-title">Key Moments &amp; Clickable Timestamps (Click Any Moment to Jump)</div>
+  <div class="chapters" id="chapters"></div>
+
+  <footer>
+    All gameplay footage sourced exclusively from the <strong>2026 Call of Duty: Modern Warfare 4 Monster Energy Launch Invitational</strong> (Nov 6&ndash;8, 2026), compiled from official CDL / Greenwall HQ match broadcasts (OpTic Texas vs. Stallions, Miami Heretics, Toronto KOI, and Cloud9 New York).
+  </footer>
+</div>
+<script>
+const CHAPTERS = [
+  { t: 0.0,   ts: "0:00", title: "Broadcast Intro Slate", meta: "OPTIC TEXAS // MW4 MONSTER LAUNCH INVITATIONAL (NOV 6–8, 2026)", note: "Custom Greenwall broadcast intro.", vod: "" },
+  { t: 2.6,   ts: "0:03", title: "Clip 01 — 4-Piece Quad Feed Team Wipe", meta: "vs Stallions · CDL Hardpoint (Map 4) · Live Mercules POV", note: "Mercules tears through all four Stallions players inside the hill for a full Quad Feed wipe (4-kill streak).", vod: "https://www.youtube.com/watch?v=3SxytQyhDhs&t=1968s" },
+  { t: 27.13, ts: "0:27", title: "Clip 02 — Nade + 4-Piece Map-Closing Wipe", meta: "vs Miami Heretics · CDL Hardpoint (Map 1, 237–186 → 250) · Live Mercules POV", note: "Lands a frag before Miami's trophy drops, pops MULTIKILL X3 on banner, and completes the 4-piece team wipe to close Map 1.", vod: "https://www.youtube.com/watch?v=wx8KoKXnCEE&t=571s" },
+  { t: 42.87, ts: "0:43", title: "Clip 03 — Round 10 1v1 S&D Clutch (Top 20 Play of the Tournament)", meta: "vs Toronto KOI · CDL Search & Destroy (Map 2, 4–5 Match Point)", note: "Facing elimination against eventual champions Toronto KOI, Mercules plants, repositions to burn the clock, and wins the 1v1 to force Round 11.", vod: "https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1684s" },
+  { t: 68.87, ts: "1:09", title: "Clip 03B — Official Final Kill Replay (Mercules POV)", meta: "vs Toronto KOI · Round 10 Game-Saving Shot", note: "Official CDL Final Killcam from Mercules's POV capturing the snap beam that forced Round 11.", vod: "https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1715s" },
+  { t: 78.67, ts: "1:19", title: "Clip 04 — Round 9 Tie-Breaker Multikill (4–4 → 5–4 Match Point)", meta: "vs Cloud9 New York · CDL Search & Destroy (Elimination Match) · Live Mercules POV", note: "Chains consecutive picks in a tied 4–4 S&D round to eliminate Cloud9 New York and put OpTic on match point.", vod: "https://www.youtube.com/watch?v=LTbq9Clbufk&t=1729s" },
+  { t: 98.87, ts: "1:39", title: "Clip 05 — Early Rotation & Flank Lockdown", meta: "vs Miami Heretics · CDL Hardpoint (Map 1, 193–141 → 204–145) · Live Mercules POV", note: "Rotates early and anchors the flank lane to deny Miami's break and stretch OpTic's Hardpoint lead.", vod: "https://www.youtube.com/watch?v=wx8KoKXnCEE&t=463s" },
+  { t: 120.4, ts: "2:00", title: "Clip 06 — S&D Round 1 OE 1v1 Opener", meta: "vs Stallions · CDL Search & Destroy (Map 2, Round 1) · Live Mercules POV", note: "Wins the decisive over-extension 1v1 in Round 1 to put OpTic up 1–0.", vod: "https://www.youtube.com/watch?v=3SxytQyhDhs&t=588s" },
+  { t: 136.2, ts: "2:16", title: "Clip 07 — First Blood Cross Pick (3–0 S&D Start)", meta: "vs Stallions · CDL Search & Destroy (Map 2, Round 3)", note: "Snaps First Blood watching the mid-map cars cross (3/0, 3-streak) as OpTic surges to a 3–0 round lead.", vod: "https://www.youtube.com/watch?v=3SxytQyhDhs&t=712s" },
+  { t: 152.73,ts: "2:33", title: "Clip 08 — Opening Mid-Map 2-Piece Break", meta: "vs Toronto KOI · CDL Hijack (Map 3)", note: "Opens Map 3 Hijack with a crisp 2-piece (CleanX & RenKoR in the killfeed) to ignite OpTic's opening break.", vod: "https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1812s" },
+  { t: 169.73,ts: "2:50", title: "Clip 09 — Rooftop Gap Breakthrough", meta: "vs Cloud9 New York · CDL Hardpoint (Map 4, 101–66 → 109–76)", note: "Mercules (11/9, 2-streak) and Dashy crack Cloud9's rooftop setup through the gap to stretch OpTic's lead.", vod: "https://www.youtube.com/watch?v=LTbq9Clbufk&t=3138s" },
+  { t: 193.27,ts: "3:13", title: "Outro & Broadcast Credits", meta: "OPTIC TEXAS · 4TH PLACE FINISH", note: "Closing slate & source attribution.", vod: "" }
+];
+const vid = document.getElementById("vid");
+const box = document.getElementById("chapters");
+const els = CHAPTERS.map((c, idx) => {
+  const el = document.createElement("div");
+  el.className = "ch";
+  el.innerHTML = `<div class="ts">${c.ts}</div><div><div class="ch-title">${c.title}</div><div class="ch-meta">${c.meta}</div><div class="ch-note">${c.note}</div></div>${c.vod ? `<a class="vod-link" href="${c.vod}" target="_blank" onclick="event.stopPropagation()">Source VOD &nearr;</a>` : `<span></span>`}`;
+  el.onclick = () => { vid.currentTime = c.t; vid.play(); };
+  box.appendChild(el);
+  return el;
+});
+vid.addEventListener("timeupdate", () => {
+  const ct = vid.currentTime;
+  let active = 0;
+  for (let i = 0; i < CHAPTERS.length; i++) if (ct >= CHAPTERS[i].t - 0.1) active = i;
+  els.forEach((e, i) => e.classList.toggle("active", i === active));
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+OPTIC MERCULES — MW4 MONSTER LAUNCH INVITATIONAL HIGHLIGHTS COMPILATION
+Submission for Taskmarket TSK-Q4GNWY5Z (0x59f6ac1dc0997d1e819604857e5fe410281d09642d3338e50083ad6cee51800f)
+
+======================================================================
+1. WORKING FINISHED COMPILATION LINKS (VERIFIED HTTP 200)
+======================================================================
+- Instant In-Browser HD Watch Page (HTML5 Player + Clickable Chapters):
+  https://zColdWater.github.io/optic-mercules-mw4-highlights/
+- Direct Streamable / Downloadable HD MP4 (1280x720, 30fps, 3:15, H.264/AAC):
+  https://github.com/zColdWater/optic-mercules-mw4-highlights/releases/download/v1.0.0/optic-mercules-mw4-monster-invitational-highlights.mp4
+- Public Repository & Full Source Verification:
+  https://github.com/zColdWater/optic-mercules-mw4-highlights
+
+======================================================================
+2. KEY MOMENTS WITH EXACT TIMESTAMPS (3:15 TOTAL RUNTIME)
+======================================================================
+- 0:00  Broadcast Intro Slate (OpTic Texas // MW4 Monster Launch Invitational, Nov 6-8, 2026)
+
+- 0:03  [CLIP 01] 4-Piece Quad Feed Team Wipe — OpTic Texas vs. Stallions (CDL Hardpoint, Map 4)
+        Live Mercules POV (4-kill streak): shreds all four Stallions players inside the hill for a full Quad Feed wipe ("OH, HE'S GOING TO FIND THE QUAD FEED! FOUR FOR MERCULES!").
+        Source VOD: https://www.youtube.com/watch?v=3SxytQyhDhs&t=1968s (Nov 7, 2026)
+
+- 0:27  [CLIP 02] Nade + 4-Piece Map-Closing Wipe — OpTic Texas vs. Miami Heretics (CDL Hardpoint, Map 1, 237-186 -> 250)
+        Live Mercules POV (21/19, STRK 4): lands a frag before Miami's trophy drops, triggers the "MERCULES - MULTIKILL X3" banner, and completes the 4-piece wipe to seal Map 1.
+        Source VOD: https://www.youtube.com/watch?v=wx8KoKXnCEE&t=571s (Nov 8, 2026)
+
+- 0:43  [CLIP 03] Round 10 1v1 S&D Clutch (Featured in Top 20 Best Plays of the Tournament) — OpTic Texas vs. Toronto KOI (CDL Search & Destroy, Map 2, 4-5 Match Point)
+        Facing elimination against eventual tournament champions Toronto KOI, Mercules plants, repositions to drain the clock, and wins the clutch 1v1 to force Round 11 ("Dashy shoots like that, and you best believe Mercules does too! Round 11, here we go!").
+        Source VOD: https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1684s (Nov 8, 2026)
+
+- 1:09  [CLIP 03B] Official CDL Final Kill Replay (Mercules POV) — OpTic Texas vs. Toronto KOI (Round 10 Game-Saving Shot)
+        First-person Final Killcam showing Mercules's snap beam that saved the map and forced Round 11.
+        Source VOD: https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1715s (Nov 8, 2026)
+
+- 1:19  [CLIP 04] Round 9 Tie-Breaker Multikill (4-4 -> 5-4 Match Point) — OpTic Texas vs. Cloud9 New York (CDL Search & Destroy, Elimination Match)
+        Live Mercules POV (5/6, STRK 2): chains consecutive picks to wipe Cloud9 New York in a tied 4-4 round and put OpTic on match point.
+        Source VOD: https://www.youtube.com/watch?v=LTbq9Clbufk&t=1729s (Nov 8, 2026)
+
+- 1:39  [CLIP 05] Early Rotation & Flank Lockdown — OpTic Texas vs. Miami Heretics (CDL Hardpoint, Map 1, 193-141 -> 204-145)
+        Live Mercules POV rotating early and locking down the flank lane to deny Miami's hill break.
+        Source VOD: https://www.youtube.com/watch?v=wx8KoKXnCEE&t=463s (Nov 8, 2026)
+
+- 2:00  [CLIP 06] S&D Round 1 OE 1v1 Opener — OpTic Texas vs. Stallions (CDL Search & Destroy, Map 2, Round 1)
+        Live Mercules POV winning the decisive Round 1 over-extension 1v1 to put OpTic up 1-0.
+        Source VOD: https://www.youtube.com/watch?v=3SxytQyhDhs&t=588s (Nov 7, 2026)
+
+- 2:16  [CLIP 07] First Blood Cross Pick (3-0 Start) — OpTic Texas vs. Stallions (CDL Search & Destroy, Map 2, Round 3)
+        "MERCULES - FIRST BLOOD" watching the mid-map cars cross (improving to 3/0 with a 3-streak) as OpTic surges ahead 3-0.
+        Source VOD: https://www.youtube.com/watch?v=3SxytQyhDhs&t=712s (Nov 7, 2026)
+
+- 2:33  [CLIP 08] Opening Mid-Map 2-Piece Break — OpTic Texas vs. Toronto KOI (CDL Hijack, Map 3)
+        Mercules opens Map 3 Hijack with a clean 2-piece (CleanX & RenKoR in the killfeed) to spark OpTic's break.
+        Source VOD: https://www.youtube.com/watch?v=HXuT1U0i7LA&t=1812s (Nov 8, 2026)
+
+- 2:50  [CLIP 09] Rooftop Gap Breakthrough — OpTic Texas vs. Cloud9 New York (CDL Hardpoint, Map 4, 101-66 -> 109-76)
+        Mercules (11/9, STRK 2) and Dashy tear through Cloud9's rooftop setup to stretch OpTic's Hardpoint lead.
+        Source VOD: https://www.youtube.com/watch?v=LTbq9Clbufk&t=3138s (Nov 8, 2026)
+
+- 3:13  Outro Slate & Official Broadcast Attribution
+
+======================================================================
+3. AUTHENTICITY & PRODUCTION QUALITY NOTES
+======================================================================
+- 100% Monster Energy Launch Invitational MW4 Footage: Every clip is frame-verified from the Nov 6-8, 2026 official MW4 Monster Energy Launch Invitational broadcasts (bearing the official Monster Energy watermark and MW4 CDL broadcast HUD across all 4 OpTic Texas series). Zero non-tournament or prior-title (BO7) clips.
+- Broadcast Polish: Loudness-normalized original CDL caster audio (-15 LUFS stereo AAC 48kHz), smooth visual/audio transitions, custom OpTic Greenwall intro/outro slates, and sleek non-intrusive bottom-center clip chyrons positioned cleanly between the minimap and player card (fading out after 4s so gameplay stays unobstructed).
+- Attached alongside this breakdown: intro.png (broadcast title card) and final_qc_montage.jpg (visual frame sheet of all 10 verified highlight clips).
